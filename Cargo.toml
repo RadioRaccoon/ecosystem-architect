@@ -1,11 +1,15 @@
 [package]
 name = "ecosystem-architect"
 version = "0.1.0"
-edition = "2021"
+edition = "2023"
 authors = ["Radio Raccoon bcoons@radioraccoon.com"]
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ggez = "0.8.1"
+quicksilver = "*'
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
